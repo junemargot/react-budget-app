@@ -1,11 +1,19 @@
 import React, { Component } from 'react'
+import "./ExpenseItem.css";
 
 export class ExpenseItem extends Component {
   render() {
     return (
-      <div>
-        
-      </div>
+      <li className='item'>
+        <div className='info'>
+          <span className="expense">자격증 응시료</span>
+          <span className="amount"> 44,000원</span>
+        </div>
+        <div>
+          <button className='edit-btn'>수정</button>
+          <button className='clear-btn'>삭제</button>
+        </div>
+      </li>
     )
   }
 }
