@@ -15,7 +15,9 @@ export class ExpenseForm extends Component {
             <input type='text' className='form-control' id='amount' name='amount' placeholder='예) 3000' />
           </div>
         </div>
-        <button type='submit' className='btn'>저장<MdSend className='btn-icon' /></button>
+        <div className="btn-container">
+          <button type='submit' className='btn'>저장<MdSend className='btn-icon' /></button>
+        </div>
       </form>
     )
   }

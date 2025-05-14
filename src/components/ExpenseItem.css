@@ -29,6 +29,12 @@
   padding: 1px 3px;
 }
 
+.btn-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+
 .edit-btn,
 .clear-btn {
   background: none;
