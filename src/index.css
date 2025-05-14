@@ -23,9 +23,9 @@
 }
 
 :root {
-  --primaryColor: #ffe066;
+  --primaryColor: #FFE066;
   --secondColor: #DDEB9D;
-  --mainWhite: #fff;
+  --mainWhite: #FFF;
   --mainDark: #143D60;
   --mainRed: #EB5B00;
   --mainGreen: #619B8A;
@@ -49,3 +49,32 @@ h1 {
   font-weight: 700;
 }
 
+.btn {
+  text-decoration: none;
+  color: var(--mainWhite);
+  background-color: var(--mainDark);
+  text-align: center;
+  letter-spacing: .5px;
+  font-size: 14px;
+  outline: 0;
+  border: none;
+  border-radius: 8px;
+  display: block;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 16px;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
+  transition: all .3s linear;
+  display: flex;
+  align-items: center;
+}
+
+.btn:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, .10), 0 10px 10px rgba(0, 0, 0, .12);
+}
+
+.btn-icon {
+  margin-left: .35rem;
+  font-size: 1.2rem;
+}
